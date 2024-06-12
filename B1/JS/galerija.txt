@@ -1,0 +1,54 @@
+function prikaziSliku(x){
+	switch(x){
+		
+		case 1: {
+			document.getElementById("slika").src="slike/slika1.jpg";
+			document.getElementById("tekst").innerHTML= "Devojka";
+		} break;
+		
+		case 2: {
+			document.getElementById("slika").src="slike/slika2.jpg";
+			document.getElementById("tekst").innerHTML= "Šoljica kafe";
+		} break;
+		
+		case 3: {
+			document.getElementById("slika").src="slike/slika3.jpg";
+			document.getElementById("tekst").innerHTML= "Brod u boci";
+		} break;
+		
+		case 4: {
+			document.getElementById("slika").src="slike/slika4.jpg";
+			document.getElementById("tekst").innerHTML= "Astronaut u svemiru";
+		} break;
+		
+		case 5: {
+			document.getElementById("slika").src="slike/slika5.jpg";
+			document.getElementById("tekst").innerHTML= "Suncokreti u polju";
+		} break;
+		
+		case 6: {
+			document.getElementById("slika").src="slike/slika6.jpg";
+			document.getElementById("tekst").innerHTML= "Korpa sa limunom";
+		} break;
+		
+		case 7: {
+			document.getElementById("slika").src="slike/slika7.jpg";
+			document.getElementById("tekst").innerHTML= "Zalazak sunca u prirodi";
+		} break;
+		
+		case 8: {
+			document.getElementById("slika").src="slike/slika8.jpg";
+			document.getElementById("tekst").innerHTML= "Zebre u Africi";
+		} break;
+		
+		case 9: {
+			document.getElementById("slika").src="slike/slika9.jpg";
+			document.getElementById("tekst").innerHTML= "Gitara i ruža";
+		} break;
+		
+		case 10: {
+			document.getElementById("slika").src="slike/slika10.jpg";
+			document.getElementById("tekst").innerHTML= "Jesenja šuma";
+		} break;
+	}
+}

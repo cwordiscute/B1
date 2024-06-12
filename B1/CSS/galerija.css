@@ -1,0 +1,65 @@
+.navigacija{
+	background-color: #ffd966;
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+div a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div a:hover:not(.active) {
+  background-color: #f9c31f;
+}
+
+.active {
+  background-color: black;
+}
+body {
+	background-color: #fce49c;
+}
+
+.kontejner {
+	width:800px;
+	height: 600px;
+	margin-top:5%;
+}
+
+#slika {
+	width: 640px;
+	height: 480px;
+	float: center;
+	border-radius: 20px;
+	border-color: #f9c31f;
+	border-style: solid;
+	border-width: 10px;
+}
+
+.slike {
+	width: 64px;
+	height: 40px;
+	display: inline;
+}
+
+.tekst1 {
+	font-size: 30px;
+	font-family: Sans-serif;
+	text-align: center;
+	color: #f9c31f;
+}
+
+.tekst2 {
+	font-size: 30px;
+	font-family: Sans-serif;
+	text-align: center;
+	color: #f9c31f;
+	margin-top:10%;
+}
